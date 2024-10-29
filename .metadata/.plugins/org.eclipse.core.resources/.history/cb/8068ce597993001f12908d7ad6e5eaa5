@@ -1,0 +1,10 @@
+package com.spring;
+
+public class Zomato implements KFC{
+
+	@Override
+	public void Order() {
+		System.out.println("Order placed in zomato");
+	}
+
+}

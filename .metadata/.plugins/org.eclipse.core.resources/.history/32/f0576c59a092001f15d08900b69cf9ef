@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="student1" class="com.spring.Student">
+		<property name="id" value="1201"/>
+		<property name="name" value="Narendra"/>
+		<property name="hobbies">
+			<set>
+				<value>Watching Cricket</value>
+				<value>Coding</value>
+				<value>Sleeping</value>
+			</set>
+		</property>
+		<property name="optedSubjects">
+			<map>
+				<entry key="SUB001" value="web Technologies"/>
+				<entry key="SUB002" value="Java Programming"/>
+				<entry key="SUB003" value="Design Patterns"/>
+			</map>
+		</property>
+		
+		
+		
+	</bean>
+   
+</beans>

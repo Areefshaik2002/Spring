@@ -1,0 +1,13 @@
+package com.spring;
+
+public class Desktop implements Computer {
+//	public void codeInDesktop() {
+//		System.out.println("Coding in Desktop...");
+//	}
+
+	@Override
+	public void Code() {
+		// TODO Auto-generated method stub
+		
+	}
+}

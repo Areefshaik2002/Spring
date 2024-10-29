@@ -1,0 +1,7 @@
+package com.spring;
+
+public class KFC {
+	public void order() {
+		System.out.println("Order placed at KFC");
+	}
+}

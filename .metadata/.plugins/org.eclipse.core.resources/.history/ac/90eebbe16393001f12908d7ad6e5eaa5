@@ -1,0 +1,32 @@
+package com.spring;
+
+public class Developer {
+	private Laptop laptop;	
+	
+	public Developer() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Developer(Laptop laptop) {
+		super();
+		this.laptop = laptop;
+	}
+	
+	public Laptop getLaptop() {
+		return laptop;
+	}
+
+	public void setLaptop(Laptop laptop) {
+		this.laptop = laptop;
+	}
+
+	public void startCoding() {
+		laptop.codeInLaptop();
+	}
+
+//	@Override
+//	public String toString() {
+//		return "Developer [laptop=" + laptop + "]";
+//	}
+	
+}

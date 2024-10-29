@@ -1,0 +1,8 @@
+package com.spring;
+
+public class Swiggy implements KFC {
+	@Override
+	public void Order() {
+		System.out.println("Order placed at swiggy");
+	}
+}

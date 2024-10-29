@@ -1,0 +1,7 @@
+package com.spring;
+
+public class Swiggy {
+	public void order() {
+		System.out.println("Order placed at swiggy");
+	}
+}
